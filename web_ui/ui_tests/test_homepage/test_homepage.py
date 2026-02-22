@@ -1,6 +1,6 @@
 from web_ui.ui_methods.ui_methods import UIMethods
-from utils.ai_checker import AIChecker
 from settings.project_setting import PROJECT_HOST
+from utils.tm_ai_methods import TMMethod
 
 class TestHomePage:
 
@@ -12,6 +12,7 @@ class TestHomePage:
         selected_language = "Українська"
         selected_language_icon = "uk"
         ui = UIMethods(page)
+        ai = TMMethod()
         ui.general.open_url(PROJECT_HOST)
         ui.homepage.click_dandruff_in_search_field()
         ui.general.check_open_page_with_url_contains(url_en_wikipedia_search)
@@ -23,10 +24,7 @@ class TestHomePage:
         ui.homepage.click_dandruff_in_search_field()
         ui.general.check_open_page_with_url_contains(url_uk_wikipedia_search)
         ui.general.check_open_page_with_header(h1_uk_wikipedia_search)
-        page_text = page.inner_text("body")
-        ai_checker = AIChecker()
-        report = ai_checker.check_localization(page_text, "Ukrainian")
-        x = 20
+        ai.check_content_by_lang(page, 'Ukrainian')
 
     def test_select_language_main_page(self, page):
         url_en_wikipedia_main_page = "https://en.wikipedia.org/wiki/Main_Page"

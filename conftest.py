@@ -14,7 +14,8 @@ def browser_instance(request):
 
 @pytest.fixture(scope="function", name="page")
 def page_instance(browser, request):
-    context = browser.new_context(record_video_dir="videos/")
+    # context = browser.new_context(record_video_dir="videos/")
+    context = browser.new_context()
     request.cls.context = context
     new_page = context.new_page()
     new_page.set_viewport_size({'width': int(BROWSER_WIDTH), 'height': int(BROWSER_HEIGHT)})

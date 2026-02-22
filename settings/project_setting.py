@@ -28,3 +28,6 @@ PW_PAGE_TIMEOUT = os.getenv('PW_PAGE_TIMEOUT')
 PW_API_TIMEOUT = os.getenv('PW_API_TIMEOUT')
 
 AI_API_KEY = os.getenv('aiApiKey', default=os.getenv('AI_API_KEY'))
+TM_LOGIN = os.getenv('TM_LOGIN', default=os.getenv('TM_LOGIN'))
+TM_PASSWORD = os.getenv('TM_PASSWORD', default=os.getenv('TM_PASSWORD'))
+TM_URL = 'https://app.testomat.io'
