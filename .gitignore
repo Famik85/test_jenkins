@@ -149,3 +149,4 @@ screenshots/
 logs/
 testrail/screenshots/*
 testrail/logs/*
+/allure-results/
