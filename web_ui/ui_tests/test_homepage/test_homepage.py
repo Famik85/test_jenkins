@@ -79,7 +79,6 @@ class TestHomePage:
             'Wikisource': ('https://wikisource.org/wiki/Wikisource:Main_Page', 'Wikisource'),
             'Meta-Wiki': ('https://meta.wikimedia.org/wiki/Main_Page', 'Meta-Wiki'),
             'Wikivoyage': ('https://www.wikivoyage.org/', 'Wikivoyage'),
-            'Wikinews': ('https://www.wikinews.org/', 'Wikinews'),
             'Wikiquote': ('https://www.wikiquote.org/', 'Wikiquote'),
             'Wikispecies': ('https://species.wikimedia.org/wiki/Main_Page', 'Wikispecies'),
             'Wiktionary': ('https://www.wiktionary.org/', 'Wiktionary'),
