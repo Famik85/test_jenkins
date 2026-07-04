@@ -13,3 +13,4 @@ jsonschema==4.23.0
 python-dotenv==1.1.1
 pytest-playwright==0.7.0
 openai==2.20.0
+allure-pytest
