@@ -76,7 +76,7 @@ class TestHomePage:
             'Commons': ('https://commons.wikimedia.org/wiki/Main_Page', 'Commons'),
             'Wikibooks': ('https://www.wikibooks.org/', 'Wikibooks'),
             'Wikiversity': ('https://www.wikiversity.org/', 'Wikiversity'),
-            'Wikisource': ('https://wikisource.org/wiki/Main_Page', 'Wikisource'),
+            'Wikisource': ('https://wikisource.org/wiki/Wikisource:Main_Page', 'Wikisource'),
             'Meta-Wiki': ('https://meta.wikimedia.org/wiki/Main_Page', 'Meta-Wiki'),
             'Wikivoyage': ('https://www.wikivoyage.org/', 'Wikivoyage'),
             'Wikinews': ('https://www.wikinews.org/', 'Wikinews'),
