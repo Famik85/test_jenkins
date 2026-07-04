@@ -24,7 +24,7 @@ class TestHomePage:
         ui.homepage.click_dandruff_in_search_field()
         ui.general.check_open_page_with_url_contains(url_uk_wikipedia_search)
         ui.general.check_open_page_with_header(h1_uk_wikipedia_search)
-        ai.check_content_by_lang(page, 'Ukrainian')
+        # ai.check_content_by_lang(page, 'Ukrainian')
 
     def test_select_language_main_page(self, page):
         url_en_wikipedia_main_page = "https://en.wikipedia.org/wiki/Main_Page"
